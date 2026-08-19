@@ -72,9 +72,11 @@ IMAGE_STEPS = int(os.environ.get("IMAGE_STEPS", "28"))
 IMAGE_GUIDANCE = float(os.environ.get("IMAGE_GUIDANCE", "3.5"))
 
 STYLE_SUFFIX = (
-    ", painterly storybook illustration, warm muted color palette, "
-    "soft cinematic lighting, detailed linework, semi-realistic "
-    "anime-influenced style, consistent art direction"
+    ", 1980s European arthouse animation cel screencap style, "
+    "minimalist hand-drawn facial features, thin elegant line art, "
+    "flat gouache color fills, no digital gradients, no 3D shading, "
+    "muted earthy palette with dusty terracotta and olive tones, "
+    "nostalgic raw aesthetic, retro cel-animation masterpiece"
 )
 
 _flux_pipe = None
